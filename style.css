@@ -41,6 +41,33 @@ aside{
     padding: 20px;
 
 }
+.content_skills{
+    width: 90%;
+    border-radius: 12px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.skills img{
+    width: 100px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+.skills img:hover{
+    transform: scale(1.1);
+}
 .content_projects{
     width: 90%;
     background: linear-gradient(to bottom, rgb(255, 231, 214), white, white);
@@ -83,6 +110,13 @@ aside{
 .project img:hover{
     transform: scale(1.1);
     filter: brightness(90%);
+}
+.project span{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-weight: bold
 }
 .modal {
   display: none;
